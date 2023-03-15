@@ -11,8 +11,11 @@ function mzx_setup()
 {
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
+    add_theme_support('menus');
 
 }
+
+register_nav_menu('top-bar', 'top bar menu');
 
 if (is_admin())
 {

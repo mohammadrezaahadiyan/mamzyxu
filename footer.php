@@ -4,7 +4,7 @@
         <div class="row align-items-center">
             <div class="col-md-2 mb-md-0 mb-4">
                 <span class="pr-md-5 pr-0 py-3 border-right ">
-                    <img class="pr-3" src="assets/img/logo-dark.png" srcset="assets/img/logo-dark@2x.png 2x" alt="">
+                    <img class="pr-3" src="assets/img/logo-dark.png" srcset=" <?php echo get_template_directory_uri();?>/assets/img/logo-dark@2x.png 2x" alt="">
                 </span>
             </div>
             <div class="col-md-6 mb-md-0 mb-4">
@@ -48,7 +48,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/assets/vendor/wow.min.js"></script>
 
 <!--basic scripts initialization-->
-<script src="<?php echo get_template_directory_uri(); ?>/ assets/js/scripts.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/scripts.js"></script>
 
 </body>
 

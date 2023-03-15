@@ -1,2 +1,2 @@
 <?php
-echo "kosse nanat";
+echo "kosse pedaret";

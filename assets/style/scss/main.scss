@@ -1,5 +1,7 @@
-$color: red;
+$mh_fl: left;
+$mh_dn: none;
 
-body {
-  background: $color;
+#vl-menu {
+  float: $mh_fl !important;
+  display: $mh_dn;
 }

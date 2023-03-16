@@ -27,7 +27,7 @@
 
     <!--custom styles-->
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/style/css/main.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/styles/css/custom.css" rel="stylesheet">
 
     <!--[if (gt IE 9) |!(IE)]><!-->
     <!--<link rel="stylesheet" href="assets/vendor/custom-nav/css/effects/fade-menu.css"/>-->

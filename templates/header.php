@@ -7,8 +7,8 @@
                 <!--brand start-->
                 <div class="navbar-brand float-left">
                     <a class="" href="index-2.html">
-                        <img class="logo-light" src="assets/img/logo.png" srcset="assets/img/logo@2x.png 2x" alt="CLab">
-                        <img class="logo-dark" src="assets/img/logo-dark.png" srcset="assets/img/logo-dark@2x.png 2x" alt="CLab">
+                        <img class="logo-light" src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" srcset="assets/img/logo@2x.png 2x" alt="CLab">
+                        <img class="logo-dark" src="<?php echo get_template_directory_uri();?>/assets/img/logo-dark.png" srcset="assets/img/logo-dark@2x.png 2x" alt="CLab">
                     </a>
                 </div>
                 <!--brand end-->

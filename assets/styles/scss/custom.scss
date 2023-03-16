@@ -1,0 +1,53 @@
+//Header Style
+
+$mh_fl: left;
+$mh_dflex: flex;
+$mh_dblock: block;
+$mh_none: none;
+$blacktext: #000;
+$mh_tr4: .4s;
+$mh_posabsolute: absolute;
+$mh_posrelative: relative;
+
+#vl-menu {
+  float: $mh_fl;
+}
+
+#menu-top-bar {
+  display: $mh_dflex;
+  list-style: $mh_none;
+}
+
+#menu-top-bar a {
+  color: $blacktext;
+}
+
+#menu-top-bar > li {
+  list-style: $mh_none;
+
+}
+
+#menu-top-bar ul > li {
+  list-style: $mh_none;
+  background-color: red;
+  border-radius: 10px;
+  padding: 15px;
+  right: -55px;
+  margin: 7px;
+}
+
+.menu-top-bar-container ul {
+  display: $mh_none;
+  transition: $mh_tr4;
+}
+
+.menu-top-bar-container li {
+  margin: 2rem;
+  position: $mh_posrelative;
+}
+.menu-top-bar-container li:hover ul {
+  display: $mh_dblock;
+  position: $mh_posabsolute;
+  width: 200px;
+  transition: $mh_tr4;
+}

@@ -1,0 +1,34 @@
+#vl-menu {
+  float: left; }
+
+#menu-top-bar {
+  display: flex;
+  list-style: none; }
+
+#menu-top-bar a {
+  color: #000; }
+
+#menu-top-bar > li {
+  list-style: none; }
+
+#menu-top-bar ul > li {
+  list-style: none;
+  background-color: red;
+  border-radius: 10px;
+  padding: 15px;
+  right: -55px;
+  margin: 7px; }
+
+.menu-top-bar-container ul {
+  display: none;
+  transition: 0.4s; }
+
+.menu-top-bar-container li {
+  margin: 2rem;
+  position: relative; }
+
+.menu-top-bar-container li:hover ul {
+  display: block;
+  position: absolute;
+  width: 200px;
+  transition: 0.4s; }
